@@ -1,0 +1,32 @@
+.template2 {
+  background-color: #f9f9f9;
+  border-left: 5px solid #2c3e50;
+  padding: 2rem;
+  border-radius: 8px;
+  font-family: 'Georgia', serif;
+}
+
+.template2 h1 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.template2 .contact p {
+  margin: 0.2rem 0;
+  color: #555;
+}
+
+.template2 section {
+  margin-top: 1.5rem;
+}
+
+.template2 h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.2rem;
+  color: #2c3e50;
+}
+
+.template2 p {
+  margin: 0.3rem 0;
+}
