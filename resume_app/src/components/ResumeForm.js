@@ -1,6 +1,8 @@
 // File: src/components/ResumeForm.js
 import React from 'react';
 import EducationForm from './EducationForm';
+import CertificationForm from './CertificationForm';
+
 
 const ResumeForm = ({ formData, setFormData }) => {
   if (typeof setFormData !== 'function') {
@@ -25,6 +27,7 @@ const ResumeForm = ({ formData, setFormData }) => {
       <textarea name="skills" placeholder="Skills" value={formData.skills || ''} onChange={handleChange} />
 
       <EducationForm education={formData.education} setFormData={setFormData} />
+      <CertificationForm certifications={formData.certifications} setFormData={setFormData} />
     </div>
   );
 };

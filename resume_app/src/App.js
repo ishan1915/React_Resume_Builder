@@ -27,6 +27,14 @@ export default function App() {
         endDate: '',
         subjects: ''
       }
+    ],
+     certifications: [
+      {
+        title: '',
+        organization: '',
+        date: '',
+        description: ''
+      }
     ]
   });
 

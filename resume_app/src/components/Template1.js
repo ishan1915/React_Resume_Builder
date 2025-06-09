@@ -15,6 +15,14 @@ const Template1 = ({ data }) => (
         <p>{edu.subjects}</p>
       </div>
     ))}
+    <h3>Certification</h3>
+    {data.certifications.map((cert, index) => (
+      <div key={index}>
+        <p><strong>{cert.title}</strong>, {cert.organization}</p>
+        <p>{cert.date} </p>
+        <p>{cert.description}</p>
+      </div>
+    ))}
     <h3>Experience</h3>
     <p>{data.experience}</p>
     <h3>Skills</h3>
