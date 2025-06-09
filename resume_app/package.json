@@ -2,7 +2,7 @@
   "name": "resume_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ishan1915/React_Resume_Builder",
+ "homepage": "https://ishan1915.github.io/React_Resume_Builder",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
